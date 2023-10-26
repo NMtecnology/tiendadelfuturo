@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.ar{
+    background-color: rgb(4, 100, 155);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 9px 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    animation: ion ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ion{
+    0%{
+    
+        background-color: rgb(57, 17, 85);
+        border: rgb(255, 255, 255) solid 2px;
+    }
+    25%{
+        
+        background-color: rgb(157, 33, 195);
+        border: rgb(255, 255, 255) solid 2px;  
+    }
+
+    50%{
+        
+        background-color: rgb(41, 143, 146);
+        border: rgb(255, 255, 255) solid 2px;  
+    }
+
+    75%{
+        
+        background-color: rgb(101, 6, 179);
+        border: rgb(255, 255, 255) solid 2px;  
+    }
+
+    100%{
+        
+        background-color: rgb(57, 4, 155);
+        border: rgb(255, 255, 255) solid 2px;
+    }
+}
+
+.ac{
+    background-color: rgb(4, 100, 155);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 9px 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    animation: joandri ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes joandri{
+    0%{
+    
+        background-color: rgb(57, 17, 85);
+        border: rgb(255, 255, 255) solid 2px;
+    }
+    25%{
+        
+        background-color: rgb(157, 33, 195);
+        border: rgb(255, 255, 255) solid 2px;  
+    }
+
+    50%{
+        
+        background-color: rgb(41, 143, 146);
+        border: rgb(255, 255, 255) solid 2px;  
+    }
+
+    75%{
+        
+        background-color: rgb(101, 6, 179);
+        border: rgb(255, 255, 255) solid 2px;  
+    }
+
+    100%{
+        
+        background-color: rgb(57, 4, 155);
+        border: rgb(255, 255, 255) solid 2px;
+    }
+}
+h1{
+    font-size: 100px;
+    color: #fff;
+}
+
+a:hover{
+    background-color: rgb(0, 0, 0);
+    border: #fff solid px;
+}
+
+.colo{  
+    animation: colo;
+    animation-duration: 2s;
+}
+
+@keyframes colo{
+    0%{
+        width: 100px;
+    }
+    100%{
+        width: 300px;
+    }
+}
